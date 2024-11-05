@@ -1,0 +1,62 @@
+/* styles.css */
+
+/* Importing the Roboto font */
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #333;
+  background-color: #f4f4f4;
+}
+
+/* Navbar styling */
+.navbar {
+  display: flex;
+  justify-content: center; /* Centers the navbar items */
+  background-color: #333;
+  padding: 10px 0;
+}
+
+.nav-link {
+  color: #f4f4f4;
+  text-decoration: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.nav-link:hover {
+  background-color: #555;
+  border-radius: 5px;
+}
+
+/* Section styling */
+.section {
+  padding: 50px;
+  text-align: center;
+  background-color: #ffffff;
+  margin: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#about {
+  background-color: #e8f1f8;
+}
+
+#portfolio {
+  background-color: #ffe8e8;
+}
+
+#contact {
+  background-color: #e8ffe8;
+}
+
+/* Footer styling */
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #333;
+  color: #f4f4f4;
+  font-size: 14px;
+}
